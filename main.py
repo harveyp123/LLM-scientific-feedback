@@ -323,8 +323,8 @@ def main():
     demo = gr.Interface(
         fn=process, inputs=upload_component, outputs=output_component_review
     )
-    demo.queue(concurrency_count=3)
-    demo.launch(server_name="0.0.0.0", server_port=7799)
+    # demo.queue(concurrency_count=3)
+    demo.launch(server_name="0.0.0.0", server_port=7799, share=True, max_threads = 3) #, max_threads = 3
 
 
 if __name__ == "__main__":
