@@ -61,3 +61,7 @@ You should get the following output:
 
 If you encounter any error, please first check the server log and then open an issue.
 
+Add following command to .bashrc:
+```bash
+export TMPDIR=/home/${USER}/.cache/
+```
