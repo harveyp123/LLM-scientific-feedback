@@ -1,4 +1,4 @@
-gradio==4.0.1
+gradio==4.44.0
 pikepdf==8.5.3
 openai==1.0.0
 tiktoken==0.5.2
